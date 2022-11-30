@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09d30f949ab9cab46bc2c2c111602807, type: 3}
+  m_Name: 0 4
+  m_EditorClassIdentifier: 
+  nameP: Torchic
+  description: 
+  frontSprite: {fileID: 21300000, guid: 1ee11be3a24139944b419ac5c7d0fad5, type: 3}
+  backSprite: {fileID: 21300000, guid: d98a29e2666f46745a17893641c531a8, type: 3}
+  type1: 2
+  type2: 0
+  maxHp: 45
+  att: 60
+  def: 40
+  spAtt: 70
+  spDef: 50
+  speed: 45
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: b2bdfccdd4275014a9ca55393617a14b, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 701b6698c5d276345af11175fe3d50a7, type: 2}
+    level: 10
